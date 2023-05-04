@@ -1,6 +1,6 @@
 # Insurance Complaints Data Documentation
 
-Data was collected from [`All Insurance Complaints`](https://data.texas.gov/dataset/Insurance-complaints-All-data/ubdr-4uff). Data was cleaned and filtered to be related to BCBSTX and its competitors. All columns contain no NULLs. 
+Data was collected from Texas OpenData's [`All Insurance Complaints`](https://data.texas.gov/dataset/Insurance-complaints-All-data/ubdr-4uff). Data was cleaned and filtered to relate to BCBSTX and its competitors. All columns contain no NULLs. 
 
 Description of the 14 variables in `cleaned_insurance_complaint_data.xlsx`:
 
