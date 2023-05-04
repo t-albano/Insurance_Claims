@@ -28,8 +28,8 @@ Description of the 14 variables in `cleaned_insurance_complaint_data.xlsx`:
 
 - `Complaint_type`: String. More specific classification of claim under Life, Accident and Health. 15 unique strings. 
 
-- `Coverage_level`: String. Coverage level of person who filed complaint. 7
+- `Coverage_level`: String. Coverage level of person who filed complaint. This includes: `Group A&H`, `Individual A & H`, `XX-State Specific`, `High Deductable Ben Plan`, `Discount Health Care Program`, `Federal High Risk Pool`, and `Credit Disability`.
 
-- `Respondent_type`: String. Only will show `Organization`. This refers to the companies dealt with the complaint. This includes: `Group A&H`, `Individual A & H`, `XX-State Specific`, `High Deductable Ben Plan`, `Discount Health Care Program`, `Federal High Risk Pool`, and `Credit Disability`.
+- `Complainant_type`: String. Shows how people/entity issuing complaint is classified as. 15 unique strings.
 
 - `Num_Others`: Float. Number of substrings/people in `Others Involved` from `All Insurance Complaints`.
